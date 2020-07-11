@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagonal.Algorithms", "Hexagonal.Algorithms\Hexagonal.Algorithms.csproj", "{12CDB0A2-429A-4E38-89B4-21DDE26983BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms", "Hexagonal.Algorithms\Hexagonal.Algorithms.csproj", "{12CDB0A2-429A-4E38-89B4-21DDE26983BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.Interfaces", "Hexagonal.Algorithms.Interfaces\Hexagonal.Algorithms.Interfaces.csproj", "{D11F40C8-2B9B-4B8F-BC62-38598714EBEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.Foundation", "Hexagonal.Algorithms.Foundation\Hexagonal.Algorithms.Foundation.csproj", "{3230580C-9ABB-47A9-A890-A1DE59E7A771}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{504FD187-BB4E-4CB5-B524-BE43658656C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{ED42852A-CC8C-44D3-8B91-CACEB2A70513}"
+	ProjectSection(SolutionItems) = preProject
+		TODO.txt = TODO.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +26,22 @@ Global
 		{12CDB0A2-429A-4E38-89B4-21DDE26983BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12CDB0A2-429A-4E38-89B4-21DDE26983BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12CDB0A2-429A-4E38-89B4-21DDE26983BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11F40C8-2B9B-4B8F-BC62-38598714EBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11F40C8-2B9B-4B8F-BC62-38598714EBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11F40C8-2B9B-4B8F-BC62-38598714EBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11F40C8-2B9B-4B8F-BC62-38598714EBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3230580C-9ABB-47A9-A890-A1DE59E7A771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3230580C-9ABB-47A9-A890-A1DE59E7A771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3230580C-9ABB-47A9-A890-A1DE59E7A771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3230580C-9ABB-47A9-A890-A1DE59E7A771}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12CDB0A2-429A-4E38-89B4-21DDE26983BE} = {504FD187-BB4E-4CB5-B524-BE43658656C6}
+		{D11F40C8-2B9B-4B8F-BC62-38598714EBEF} = {504FD187-BB4E-4CB5-B524-BE43658656C6}
+		{3230580C-9ABB-47A9-A890-A1DE59E7A771} = {504FD187-BB4E-4CB5-B524-BE43658656C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0266D774-48C4-41A8-806A-64E73C1E26CB}
