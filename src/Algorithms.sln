@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.Interf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.Foundation", "Hexagonal.Algorithms.Foundation\Hexagonal.Algorithms.Foundation.csproj", "{3230580C-9ABB-47A9-A890-A1DE59E7A771}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagonal.Algorithms.UnitTests", "Hexagonal.Algorithms.UnitTests\Hexagonal.Algorithms.UnitTests.csproj", "{A022627C-6F1D-44B4-AE90-B6EAE9B0A096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagonal.Algorithms.Foundation.UnitTests", "Hexagonal.Algorithms.Foundation.UnitTests\Hexagonal.Algorithms.Foundation.UnitTests.csproj", "{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3230580C-9ABB-47A9-A890-A1DE59E7A771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3230580C-9ABB-47A9-A890-A1DE59E7A771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3230580C-9ABB-47A9-A890-A1DE59E7A771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A022627C-6F1D-44B4-AE90-B6EAE9B0A096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A022627C-6F1D-44B4-AE90-B6EAE9B0A096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A022627C-6F1D-44B4-AE90-B6EAE9B0A096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A022627C-6F1D-44B4-AE90-B6EAE9B0A096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
