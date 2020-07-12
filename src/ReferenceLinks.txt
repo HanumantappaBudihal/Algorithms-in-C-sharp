@@ -4,4 +4,11 @@ https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-progra
 2. Unit testing best practices with .NET Core and .NET Standard
 https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
 
-3.
+3.Algorithms visualization
+https://visualgo.net/en
+
+4.Data Structure and Algo Visualizations
+https://people.ok.ubc.ca/ylucet/DS/about.html
+
+5.Number game and Algo game
+https://www.youtube.com/channel/UCyp1gCHZJU_fGWFf2rtMkCg

@@ -11,11 +11,11 @@ namespace Hexagonal.Algorithms.Search
     public class BinarySearcher<T> : ISearcher<T> where T : IComparable<T>
     {
         /// <summary>
-        /// TODO : Need to add the explanitation
+        /// TODO : Need to add the explanitation for method
         /// </summary>
         /// <param name="sortedData">input list in sorted orader</param>
         /// <param name="itemToSeach">Item need to check whether it is present in arry or not</param>
-        /// <returns>correct index value if item found in array other -1</returns>
+        /// <returns>Correct index value if item found in array otherwise -1</returns>
         public int FindIndex(T[] sortedData, T itemToSeach)
         {
             if (sortedData is null)

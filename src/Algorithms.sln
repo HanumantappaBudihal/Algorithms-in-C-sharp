@@ -9,12 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.Interf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.Foundation", "Hexagonal.Algorithms.Foundation\Hexagonal.Algorithms.Foundation.csproj", "{3230580C-9ABB-47A9-A890-A1DE59E7A771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagonal.Algorithms.UnitTests", "Hexagonal.Algorithms.UnitTests\Hexagonal.Algorithms.UnitTests.csproj", "{A022627C-6F1D-44B4-AE90-B6EAE9B0A096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.UnitTests", "Hexagonal.Algorithms.UnitTests\Hexagonal.Algorithms.UnitTests.csproj", "{A022627C-6F1D-44B4-AE90-B6EAE9B0A096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexagonal.Algorithms.Foundation.UnitTests", "Hexagonal.Algorithms.Foundation.UnitTests\Hexagonal.Algorithms.Foundation.UnitTests.csproj", "{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hexagonal.Algorithms.Foundation.UnitTests", "Hexagonal.Algorithms.Foundation.UnitTests\Hexagonal.Algorithms.Foundation.UnitTests.csproj", "{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6E17F3BA-8743-4287-8C10-BF70263C8FDE}"
 	ProjectSection(SolutionItems) = preProject
+		C Sharp and .NET useful links.txt = C Sharp and .NET useful links.txt
 		ReferenceLinks.txt = ReferenceLinks.txt
 	EndProjectSection
 EndProject

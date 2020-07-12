@@ -26,7 +26,6 @@ namespace Hexagonal.Algorithms.Foundation
             return false;
         }
 
-
         /// <summary>
         /// Determines if firstValue is equals to the specified secondValue.
         /// </summary>
@@ -51,7 +50,6 @@ namespace Hexagonal.Algorithms.Foundation
         {
             return firstValue.CompareTo(secondValue) > 0;
         }
-
 
         /// <summary>
         /// Determines if thisValue is less than the specified otherValue.
