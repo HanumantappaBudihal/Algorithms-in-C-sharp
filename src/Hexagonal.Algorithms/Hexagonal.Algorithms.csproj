@@ -10,11 +10,15 @@
     <RepositoryUrl>https://github.com/HanumantappaBudihal/Algorithms</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <NeutralLanguage>en-AU</NeutralLanguage>
-    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseExpression>LICENSE</PackageLicenseExpression>
     <PackageProjectUrl>https://hanumantappabudihal.github.io/Algorithms/</PackageProjectUrl>
     <PackageTags>algorithms , advanced-programming , data-structures</PackageTags>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile></PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="LICENSE" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
@@ -26,13 +30,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Hexagonal.Algorithms.Foundation\Hexagonal.Algorithms.Foundation.csproj" />
     <ProjectReference Include="..\Hexagonal.Algorithms.Interfaces\Hexagonal.Algorithms.Interfaces.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="C:\Users\hanum\OneDrive\Desktop\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>
