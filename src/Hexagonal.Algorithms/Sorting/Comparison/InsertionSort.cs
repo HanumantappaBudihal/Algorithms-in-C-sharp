@@ -21,7 +21,7 @@ namespace Hexagonal.Algorithms.Sorting
         /// <summary>
         /// Time complexity : Best case (sorted array) : O(n) , Avg Case : O(n^2) , Worst Case : O(n^2)
         /// Space complexity : O(1)
-        /// Remarks : Stable , Comparion and In-place type sorting algoritm
+        /// Remarks : Stable , Comparion and In-place type sorting algoritm 
         /// </summary>
         /// <param name="inputArray">array elememts to sort</param>
         public void Sort(T[] inputArray)
