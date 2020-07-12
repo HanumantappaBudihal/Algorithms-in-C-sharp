@@ -35,7 +35,7 @@ namespace Hexagonal.Algorithms.Sorting
                 var key = inputArray[iterator];
                 var innerIterator = iterator - 1;
 
-                while (innerIterator > 0 && inputArray[innerIterator].IsGreaterThan<T>(key))
+                while (innerIterator >= 0 && inputArray[innerIterator].IsGreaterThan<T>(key))
                 {
                     inputArray[innerIterator + 1] = inputArray[innerIterator];
                     innerIterator = innerIterator - 1;
