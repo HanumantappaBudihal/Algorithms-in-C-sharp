@@ -1,0 +1,7 @@
+1.C# Coding Conventions (C# Programming Guide)
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+
+2. Unit testing best practices with .NET Core and .NET Standard
+https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
+
+3.

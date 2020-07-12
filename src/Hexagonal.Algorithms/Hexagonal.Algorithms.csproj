@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hexagonal.Algorithms.Foundation\Hexagonal.Algorithms.Foundation.csproj" />
+    <ProjectReference Include="..\Hexagonal.Algorithms.Interfaces\Hexagonal.Algorithms.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
