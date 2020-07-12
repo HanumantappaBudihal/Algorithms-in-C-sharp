@@ -5,6 +5,9 @@ using System;
 
 namespace Hexagonal.Algorithms.UnitTests.Sorting.Comparison
 {
+    /// <summary>
+    /// TODO : Need to different data types to test the algorithm
+    /// </summary>
     public static class InsertionSortTests
     {
         [Test]

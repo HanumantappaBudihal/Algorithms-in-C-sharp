@@ -4,6 +4,11 @@ namespace Hexagonal.Algorithms.Foundation
 {
     public static class RandomHelper
     {
+        /// <summary>
+        /// TODO : Need to add the explaintion
+        /// </summary>
+        /// <param name="numberOfItems"></param>
+        /// <returns></returns>
         public static (int[] correctArray, int[] testArray) GetArrays(int numberOfItems)
         {
             var testArray = new int[numberOfItems];
@@ -19,13 +24,20 @@ namespace Hexagonal.Algorithms.Foundation
             return (correctArray, testArray);
         }
 
-        public static (string[] correctArray, string[] testArray) GetStringArrays(int n, int maxLength, bool equalLength)
+        /// <summary>
+        /// TODO : Need to add the explaintion
+        /// </summary>
+        /// <param name="limit"></param>
+        /// <param name="maxLength"></param>
+        /// <param name="equalLength"></param>
+        /// <returns></returns>
+        public static (string[] correctArray, string[] testArray) GetStringArrays(int limit, int maxLength, bool equalLength)
         {
-            var testArr = new string[n];
-            var correctArray = new string[n];
+            var testArray = new string[limit];
+            var correctArray = new string[limit];
             var length = TestContext.CurrentContext.Random.Next(2, maxLength);
 
-            for (var i = 0; i < n; i++)
+            for (var iterator = 0; iterator < limit; iterator++)
             {
                 if (!equalLength)
                 {
@@ -33,17 +45,17 @@ namespace Hexagonal.Algorithms.Foundation
                 }
 
                 var chars = new char[length];
-                for (var j = 0; j < length; j++)
+                for (var innerIterator = 0; innerIterator < length; innerIterator++)
                 {
-                    chars[j] = (char)TestContext.CurrentContext.Random.Next(97, 123);
+                    chars[innerIterator] = (char)TestContext.CurrentContext.Random.Next(97, 123);
                 }
 
-                var t = new string(chars);
-                testArr[i] = t;
-                correctArray[i] = t;
+                var temp = new string(chars);
+                testArray[iterator] = temp;
+                correctArray[iterator] = temp;
             }
 
-            return (correctArray, testArr);
+            return (correctArray, testArray);
         }
     }
 }

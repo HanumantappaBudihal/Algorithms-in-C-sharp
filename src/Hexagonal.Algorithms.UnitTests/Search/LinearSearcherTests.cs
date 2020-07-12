@@ -8,7 +8,8 @@ namespace Hexagonal.Algorithms.UnitTests.Search
     /// <summary>
     /// TODO : Explanation
     /// </summary>
-    public static class LinearSearcher
+    /// TODO : Need to different data types to test the algorithm
+    public static class LinearSearcherTests
     {
         [Test]
         public static void FindIndex_ArrayEmpty_MinusOneReturned([Random(100)] int itemToSearch)
@@ -37,7 +38,7 @@ namespace Hexagonal.Algorithms.UnitTests.Search
             //Assert
             Assert.AreEqual(-1, actualIndex);
         }
-        
+
         [Test]
         public static void FindIndex_CorrectItemInList_CorrectIndex([Random(1, 1000, 100)] int maxLimit)
         {

@@ -13,6 +13,9 @@ namespace Hexagonal.Algorithms.UnitTests.Search
     Write more test cases on negative sceniors and expections cases
      */
 
+    /// <summary>
+    /// TODO : Need to different data types to test the algorithm
+    /// </summary>
     public static class BinarySearcherTests
     {
         [Test]
