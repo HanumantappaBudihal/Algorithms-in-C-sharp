@@ -16,6 +16,7 @@ namespace Hexagonal.Algorithms.Foundation
 
             for (var iterator = 0; iterator < numberOfItems; iterator++)
             {
+                //TODO Need to remove the dependency of Nunit project here
                 var value = TestContext.CurrentContext.Random.Next(1_000_000);
                 testArray[iterator] = value;
                 correctArray[iterator] = value;
@@ -35,18 +36,21 @@ namespace Hexagonal.Algorithms.Foundation
         {
             var testArray = new string[limit];
             var correctArray = new string[limit];
+            //TODO Need to remove the dependency of Nunit project here
             var length = TestContext.CurrentContext.Random.Next(2, maxLength);
 
             for (var iterator = 0; iterator < limit; iterator++)
             {
                 if (!equalLength)
                 {
+                    //TODO Need to remove the dependency of Nunit project here
                     length = TestContext.CurrentContext.Random.Next(2, maxLength);
                 }
 
                 var chars = new char[length];
                 for (var innerIterator = 0; innerIterator < length; innerIterator++)
                 {
+                    //TODO Need to remove the dependency of Nunit project here
                     chars[innerIterator] = (char)TestContext.CurrentContext.Random.Next(97, 123);
                 }
 
