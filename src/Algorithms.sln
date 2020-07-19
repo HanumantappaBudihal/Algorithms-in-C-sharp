@@ -19,6 +19,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6E17F3BA-8
 		ReferenceLinks.txt = ReferenceLinks.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{8A7B547C-008F-40F4-8162-A2C1922928FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{04CB630F-285C-41DD-BC19-62C9B0C800F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{696E4F2B-5089-4A19-BD1E-5E1159A76005}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +54,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12CDB0A2-429A-4E38-89B4-21DDE26983BE} = {8A7B547C-008F-40F4-8162-A2C1922928FC}
+		{D11F40C8-2B9B-4B8F-BC62-38598714EBEF} = {696E4F2B-5089-4A19-BD1E-5E1159A76005}
+		{3230580C-9ABB-47A9-A890-A1DE59E7A771} = {04CB630F-285C-41DD-BC19-62C9B0C800F6}
+		{A022627C-6F1D-44B4-AE90-B6EAE9B0A096} = {8A7B547C-008F-40F4-8162-A2C1922928FC}
+		{AD22FDEA-10C1-4615-8A9B-EC682EAB25E4} = {04CB630F-285C-41DD-BC19-62C9B0C800F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0266D774-48C4-41A8-806A-64E73C1E26CB}
