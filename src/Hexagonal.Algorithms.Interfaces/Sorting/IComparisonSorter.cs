@@ -11,5 +11,8 @@
         /// </summary>
         /// <param name="inputArray"></param>
         void Sort(T[] inputArray);
+
+        //TODO : need to Sort by descending
+        //void SortByDescending(T[] inputArray)
     }
 }
