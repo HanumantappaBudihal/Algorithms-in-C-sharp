@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Heaps\" />
+    <Folder Include="Graphs\" />
+    <Folder Include="SortedCollections\" />
+    <Folder Include="Trees\" />
+  </ItemGroup>
+
 </Project>
