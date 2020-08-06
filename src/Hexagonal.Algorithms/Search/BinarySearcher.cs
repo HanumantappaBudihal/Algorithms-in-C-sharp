@@ -45,5 +45,28 @@ namespace Hexagonal.Algorithms.Search
 
             return -1;
         }
+
+        public int FindIndex(T[] sortedData, T itemToSearch,int leftIndex,int rightIndex)
+        {
+            if (leftIndex <= rightIndex)
+            {
+                int middleIndex = leftIndex + ((rightIndex - leftIndex) / 2);
+               
+                if (sortedData[middleIndex].Equals(itemToSearch))
+                    return middleIndex;
+
+                if(sortedData[middleIndex].IsLessThan(itemToSearch))
+                {
+                    return FindIndex(sortedData, itemToSearch, middleIndex = 1, rightIndex);
+                }
+
+                if (sortedData[middleIndex].IsGreaterThan(itemToSearch))
+                {
+                    return FindIndex(sortedData, itemToSearch, leftIndex, middleIndex - 1);
+                }
+            }
+
+            return -1;
+        }
     }
 }
