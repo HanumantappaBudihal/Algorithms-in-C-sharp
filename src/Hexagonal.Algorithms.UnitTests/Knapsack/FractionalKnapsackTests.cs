@@ -17,7 +17,7 @@ namespace Hexagonal.Algorithms.UnitTests.Knapsack
 
             var capacity = 75;
 
-            Func<int, int> weightSelector = x => (int)(wt[Array.IndexOf(items, x)] * 10);
+            Func<int, double> weightSelector = x => (int)(wt[Array.IndexOf(items, x)] * 10);
             Func<int, double> valueSelector = x => val[Array.IndexOf(items, x)];
 
             var expected = new[] { 1, 3, 5, 7, 8, 9, 14, 15 };
