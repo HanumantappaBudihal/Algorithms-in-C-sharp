@@ -1,0 +1,18 @@
+1. Check GCC installed on your machine properly or Not.
+
+
+2. Build C++ programs 
+g++ filename.cpp -o any-name
+
+Ex: g++ HelloWorld.cpp -o Hello     // after sucessful build , Hello.exe will create
+
+3.Run C++ programs
+./a out executableFileName.exe
+./executableFileName
+
+Ex:./a out Hello.exe
+    ./Hello
+
+
+4. WinGW compiler documentation
+http://www.mingw-w64.org/doku.php
