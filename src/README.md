@@ -1,0 +1,19 @@
+#C Sharp and .NET useful links
+
+1.C# Coding Conventions (C# Programming Guide)
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+
+2. Unit testing best practices with .NET Core and .NET Standard
+https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
+
+3.Algorithms visualization
+https://visualgo.net/en
+
+4.Data Structure and Algo Visualizations
+https://people.ok.ubc.ca/ylucet/DS/about.html
+
+5.Number game and Algo game
+https://www.youtube.com/channel/UCyp1gCHZJU_fGWFf2rtMkCg
+
+6.Tuple types (C# reference)
+https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples
